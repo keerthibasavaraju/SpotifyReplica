@@ -1,0 +1,102 @@
+body{
+    margin: 0px;
+}
+
+
+
+.icon
+{
+    display: flex;
+    align-items: center;
+}
+.home
+{
+    background-color: rgb(246, 143, 177);
+    
+}
+
+
+.navbar
+{
+    margin: 0px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.links a
+{
+    text-decoration: none;
+    font-weight: bolder;
+    margin-right: 10px;
+    font-size: 20px;
+    color: black;
+}
+.display
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:20px 40px;
+}
+.signs a
+{
+    color: black;
+    display: block;
+    text-decoration: none;
+    margin: 10px 0px;
+    
+} 
+.content
+{
+    display: block;
+   padding-left: 100px;
+}
+
+.picture
+{
+    padding-right: 100px;
+}
+.picture img{
+    transform: rotate(4deg);
+}
+.second 
+{
+    margin: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+.a button{
+    border: none;
+    margin-right: 10px;
+   
+   
+    color: aliceblue;
+    background-color: black;
+    font-weight: bolder;
+}
+.creation
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+    margin-bottom: 40px;
+}
+
+.bio
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    
+}
+.below 
+{
+    border: 2px solid;
+    position: sticky;
+    bottom: 0;
+}
